@@ -6,20 +6,20 @@
   <body>  
     <link rel='stylesheet' type='text/css' href='style.css'>
     <section>
-      <h1 id="temperature"></h1>
-      <h2>Current Temperature: <span id="current-temperature">20</span></h2>
+      <h1><span id="temperature"></span>°c</h1>
+      <h2>Location Temperature: <span id="current-temperature">20</span>°c</h2>
       <form id="select-city">
-        <input id="current-city" type="text" placeholder="Enter a city"></input>
-        <input type="submit"></input>
+        <input id="current-city" type="text" placeholder="Enter a location"></input>
+        <input class="button6" type="submit"></input>
         </form>
         </select>
       <p>
         <button class="button1" id="temperature-up">Increase +</button>
-        <button class="button2" id="temperature-down">Increase -</button>
+        <button class="button2" id="temperature-down">Decrease -</button>
         <button class="button3" id="temperature-reset">Reset Temperature</button>
         Power Saving Mode:<span id="power-saving-status"></span>
-        <button id="powersaving-on">Turn Power Saving Mode On</button>
-        <button id="powersaving-off">Turn Power Saving Mode Off</button>
+        <button class="button4" id="powersaving-on">Turn Power Saving Mode On</button>
+        <button class="button5" id="powersaving-off">Turn Power Saving Mode Off</button>
       </p>
     </section>
     <script src="src/thermostat.js"></script>
