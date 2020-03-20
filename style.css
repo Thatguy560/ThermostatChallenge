@@ -34,17 +34,17 @@ h2 {
 }
 
 .low-usage {
-  font-size: 70px;
+  font-size: 60px;
   color: whitesmoke
 }
 
 .medium-usage {
-  font-size: 70px;
+  font-size: 60px;
   color: black
 }
 
 .high-usage {
-  font-size: 70px;
+  font-size: 60px;
   color: red;
 }
 
@@ -122,4 +122,9 @@ text-align: center;
 .button6:hover{
   background-color: orange;
   color: white;
+}
+
+input {
+  border: 2px solid black;
+  background-color: white;
 }
