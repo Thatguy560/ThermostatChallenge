@@ -7,19 +7,19 @@
     <link rel='stylesheet' type='text/css' href='style.css'>
     <section>
       <h1 id="temperature"></h1>
-      <h2>Current temperature: <span id="current-temperature">20</span></h2>
+      <h2>Current Temperature: <span id="current-temperature">20</span></h2>
       <form id="select-city">
         <input id="current-city" type="text" placeholder="Enter a city"></input>
         <input type="submit"></input>
         </form>
         </select>
       <p>
-        <button id="temperature-up">+</button>
-        <button id="temperature-down">-</button>
-        <button id="temperature-reset">reset</button>
-        power saving mode is <span id="power-saving-status">on</span>
-        <button id="powersaving-on">PSM on</button>
-        <button id="powersaving-off">PSM off</button>
+        <button class="button1" id="temperature-up">Increase +</button>
+        <button class="button2" id="temperature-down">Increase -</button>
+        <button class="button3" id="temperature-reset">Reset Temperature</button>
+        Power Saving Mode:<span id="power-saving-status"></span>
+        <button id="powersaving-on">Turn Power Saving Mode On</button>
+        <button id="powersaving-off">Turn Power Saving Mode Off</button>
       </p>
     </section>
     <script src="src/thermostat.js"></script>
@@ -28,5 +28,4 @@
   </body>
   </html>
       
-
  

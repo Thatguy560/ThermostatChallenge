@@ -1,11 +1,82 @@
-.low-usage {
-  color: green;
+body {
+  background-image: url("https://miro.medium.com/max/5000/1*89EpqpJ6sY5NYA4DLGojoQ.png");
+  line-height: 180px;
+  padding-left: 50px;
+  background-position: right;
+  top:50%;
+  left:45%;
+  margin-top:-35px;
+  margin-left:-25px;
 }
 
-.medium-usage {
+title {
+  text-align: center;
   color: black;
 }
 
+form { 
+  text-align: center;
+  color: whitesmoke
+  }
+
+h1 {
+  text-align: center;
+}
+
+p {
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+}
+
+.low-usage {
+  font-size: 70px;
+  color: whitesmoke
+}
+
+.medium-usage {
+  font-size: 70px;
+  color: black
+}
+
 .high-usage {
+  font-size: 70px;
   color: red;
+}
+
+label {
+  color: black;
+  text-align: center;
+  }
+
+.powersaving-on {
+text-align: center;
+}
+
+.button1 {
+  background-color: cornsilk;
+}
+
+.button1:hover{
+  background-color: red
+}
+
+.button2 {
+  background-color: cornsilk;
+}
+
+.button2:hover{
+  background-color: cyan
+}
+
+.button3 {
+  background-color: cornsilk;
+}
+
+.button3:hover{
+  background-color: gold
 }
