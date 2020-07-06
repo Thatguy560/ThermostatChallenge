@@ -39,8 +39,12 @@ Open 'file:///Users/student/Projects/Week5/Thermostat/SpecRunner.html'
 ```
 ```
 - You can ask about the thermostat's current energy usage:
- < 18 is low-usage, < 25 is medium-usage, anything else is high-usage. Low-usage is indicated with white, medium-usage indicated with black, high-usage indicated with red.)
+  < 18 is low-usage, < 25 is medium-usage, anything else is high-usage.
+  Low-usage is indicated with white, medium-usage indicated with black, 
+  high-usage indicated with red.)
  ```
  ```
- - You can check the current temperature of other locations by submitting a location, this information is taken from the OpenWeatherMap API.
+ - You can check the current temperature of other locations by 
+   submitting a location, this information is taken from the 
+   OpenWeatherMap API.
  ```
